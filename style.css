@@ -1,11 +1,22 @@
+:root {
+    background-color: rgba(248, 246, 240, 0.5);
+}
 header {
     border: 1px solid red; 
+    display: flex;
+    flex-direction: row;
 } 
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+}
 footer {
     border: 1px solid blue
 }
 .intro {
-    /* border: 1px solid green;  */
     position: relative; 
 }
 .arrow-up{
@@ -13,7 +24,7 @@ footer {
     height: 0; 
     border-left: 30px solid transparent;
     border-right: 30px solid transparent; 
-    border-bottom: 51.96px solid black; 
+    border-bottom: 51.96px solid rgba(199, 167, 207); 
     margin: 0%;
 }
 .arrow-down{
@@ -21,51 +32,21 @@ footer {
     height: 0; 
     border-left: 30px solid transparent;
     border-right: 30px solid transparent; 
-    border-top: 51.96px solid black; 
+    border-top: 51.96px solid rgba(199, 167, 207); 
     margin: 0%;
 }
-/* .D1{
-    border: 1px solid purple;
-    width: 60px;
+.D3 {
     position: absolute;
-    left: 20%; 
-}
-.D2 {
-    border: 1px solid purple;
-    width: 60px;
-    position: absolute;
-    left: 20%; 
-    top: 450%; 
-} */
-/* .D3 {
-    border: 1px solid purple;
-    position: absolute;
-    width: 60px;
-    left: 30%; 
+    top: 16%; 
+    left: 35%; 
+    margin: 0%;
 }
 .D4 {
-    border: 1px solid purple;
-    width: 60px;
     position: absolute;
-    width: 60px;
-    left: 30%; 
-    top: 450%; 
+    top: 868%; 
+    left: 35%; 
+    margin: 0%;
 }
-.D5 {
-    border: 1px solid purple;
-    width: 60px;
-    position: absolute;
-    width: 60px;
-    left: 50%; 
-}
-.D6 {
-    border: 1px solid purple;
-    width: 60px;
-    position: absolute;
-    width: 60px;
-    left: 50%; 
-    top: 450%;  
-} */
 .pair-1 {
     position: absolute;
     left: 30%; 
@@ -78,4 +59,29 @@ footer {
 .pair-3 {
     position: absolute;
     left: 40%; 
+}
+.pair-4 {
+    position: absolute;
+    left: 45%; 
+    top: 300%; 
+}
+.pair-5 {
+    position: absolute;
+    left: 30%; 
+    top: 725%; 
+}
+.pair-6 {
+    position: absolute;
+    left: 40%; 
+    top: 725%; 
+}
+.pair-7 {
+    position: absolute;
+    left: 25%; 
+    top: 600%; 
+}
+.pair-8 {
+    position: absolute;
+    left: 20%; 
+    top: 320%; 
 }
