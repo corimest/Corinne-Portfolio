@@ -1,87 +1,10 @@
-:root {
-    background-color: rgba(248, 246, 240, 0.5);
+body {
+    margin: 0;            /* Reset default margin */
 }
-header {
-    border: 1px solid red; 
-    display: flex;
-    flex-direction: row;
-} 
-ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-around;
-    width: 100%;
-}
-footer {
-    border: 1px solid blue
-}
-.intro {
-    position: relative; 
-}
-.arrow-up{
-    width: 0; 
-    height: 0; 
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent; 
-    border-bottom: 51.96px solid rgba(199, 167, 207); 
-    margin: 0%;
-}
-.arrow-down{
-    width: 0; 
-    height: 0; 
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent; 
-    border-top: 51.96px solid rgba(199, 167, 207); 
-    margin: 0%;
-}
-.D3 {
-    position: absolute;
-    top: 16%; 
-    left: 35%; 
-    margin: 0%;
-}
-.D4 {
-    position: absolute;
-    top: 868%; 
-    left: 35%; 
-    margin: 0%;
-}
-.pair-1 {
-    position: absolute;
-    left: 30%; 
-}
-.pair-2 {
-    position: absolute;
-    left: 35%; 
-    top: 300%; 
-}
-.pair-3 {
-    position: absolute;
-    left: 40%; 
-}
-.pair-4 {
-    position: absolute;
-    left: 45%; 
-    top: 300%; 
-}
-.pair-5 {
-    position: absolute;
-    left: 30%; 
-    top: 725%; 
-}
-.pair-6 {
-    position: absolute;
-    left: 40%; 
-    top: 725%; 
-}
-.pair-7 {
-    position: absolute;
-    left: 25%; 
-    top: 600%; 
-}
-.pair-8 {
-    position: absolute;
-    left: 20%; 
-    top: 320%; 
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: rgb(251, 251, 251);
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
 }
