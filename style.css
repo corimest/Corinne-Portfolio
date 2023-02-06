@@ -1,9 +1,10 @@
 body {
     margin: 0;            /* Reset default margin */
+    background: rgba(185,187,234);
 }
-iframe {
+video {
     display: block;       /* iframes are inline by default */
-    background: rgb(251, 251, 251);
+    background: rgb(185,187,234);
     border: none;         /* Reset default border */
     height: 100vh;        /* Viewport-relative units */
     width: 100vw;
